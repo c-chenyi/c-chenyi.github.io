@@ -14,14 +14,6 @@ category: 数据科学
 * **数据分析与可视化**: 利用Pyecharts和Matplotlib构建...
 * **建模预测**: 应用Scikit-learn中的线性回归与时间序列模型...
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/kaoyan_screenshot_1.png" title="系统截图1" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    这是您Pyecharts可视化结果的截图。
-</div>
 
 ## 成果与价值 (Result)
 成功构建了一个功能完整的数据分析与预测系统...
