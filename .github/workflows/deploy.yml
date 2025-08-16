@@ -25,7 +25,7 @@ jobs:
       - name: Setup Ruby and Install Dependencies 💎
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1' # A recent, stable Ruby version
+          ruby-version: '3.3' # A recent, stable Ruby version
           bundler-cache: true # Automatically runs bundle install and caches gems
 
       # Builds the Jekyll site
