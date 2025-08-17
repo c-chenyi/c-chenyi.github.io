@@ -12,7 +12,7 @@ permissions:
   contents: write
   pages: write
   id-token: write
-  
+
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build_and_deploy"
@@ -30,7 +30,7 @@ jobs:
       - name: Setup Ruby and Install Dependencies 💎
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.3' # A recent, stable Ruby version
+          ruby-version: "3.3" # A recent, stable Ruby version
           bundler-cache: true # Automatically runs bundle install and caches gems
 
       # Builds the Jekyll site

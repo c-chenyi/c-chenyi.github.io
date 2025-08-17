@@ -36,8 +36,8 @@ on:
 jobs:
   lighthouse-badger-easy:
     runs-on: ubuntu-latest
-    permissions:          
-      contents: read      
+    permissions:
+      contents: read
     timeout-minutes: 8
     steps:
       - name: Preparatory Tasks
